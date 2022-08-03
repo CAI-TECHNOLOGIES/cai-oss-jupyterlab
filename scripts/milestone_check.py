@@ -52,11 +52,12 @@ if MILESTONE not in ranges:
 
 
 out = subprocess.run(
-    "git log {} --format='%H,%cE,%s'".format(ranges[MILESTONE]),
+    ['git', 'log', ranges[MILESTONE], "--format='%H,%cE,%s'"],
     shell=True,
     encoding="utf8",
     stdout=subprocess.PIPE,
 )
+
 commits = {i[0]: (i[1], i[2]) for i in (x.split(",", 2) for x in out.stdout.splitlines())}
 
 
