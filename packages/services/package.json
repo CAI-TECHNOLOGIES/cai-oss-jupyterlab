@@ -56,7 +56,7 @@
     "@lumino/disposable": "^1.10.0",
     "@lumino/polling": "^1.9.0",
     "@lumino/signaling": "^1.10.0",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.7",
     "ws": "^7.4.6"
   },
   "devDependencies": {
