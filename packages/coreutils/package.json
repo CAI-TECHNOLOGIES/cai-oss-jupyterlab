@@ -42,10 +42,10 @@
     "@lumino/coreutils": "^1.11.0",
     "@lumino/disposable": "^1.10.0",
     "@lumino/signaling": "^1.10.0",
-    "minimist": "~1.2.0",
-    "moment": "^2.24.0",
+    "minimist": "~1.2.6",
+    "moment": "^2.29.4",
     "path-browserify": "^1.0.0",
-    "url-parse": "~1.5.1"
+    "url-parse": "~1.5.9"
   },
   "devDependencies": {
     "@jupyterlab/testutils": "^3.4.3",
