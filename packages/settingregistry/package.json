@@ -41,7 +41,7 @@
     "@lumino/disposable": "^1.10.0",
     "@lumino/signaling": "^1.10.0",
     "ajv": "^6.12.3",
-    "json5": "^2.1.1"
+    "json5": "^2.2.2"
   },
   "devDependencies": {
     "@jupyterlab/testutils": "^3.4.3",
